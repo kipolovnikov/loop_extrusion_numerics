@@ -12,6 +12,9 @@ phantom randomly branching polymer to d=4)
 floops(lambda, h) computes vector f_h(s) calling intgsF(s, lambda, h) for each s -- the main result
 
 Additional dependencies:
+
 ploops(f, d, lambda, h) computes the probabilities p_h(s) from the vector f_h(s)
+
 derloops(f, d, lambda, h) computes the log. derivative of p_h(s) from the vector f_h(s)
+
 derloops_delta(f, lambda) computes the peak-n-dip factor \Delta_h(s) from the vector f_h(s)
